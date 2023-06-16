@@ -34,7 +34,11 @@ For transfer learning I used the Keras model with the following models:
 - MobileNet V2
 
 > Best learning rate = 0.001, other values decrease the model accuracy and increase loss
+
 > Best epoch number = 1, all the models did not yield significal improvements by increasing epoch number
+
+
+> As weights I used ImageNet
 
 For CNN I started with a model with a Conv2D, MaxPooling2D, Conv2D,MaxPooling2D, Flatten, Dense, optimizer but found that the second layer of Conv2D,MaxPooling2D did not improve the model. i also experiemented with different learning rates with the same results of the transfer learning.
 
